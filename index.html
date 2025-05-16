@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        #particles-js {
+            position: absolute; /* Changed from fixed to absolute */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <header>
+        <h1>Moje Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">O mně</a></li>
+                <li><a href="#projects">Projekty</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Vehovský Adam</h1>
+    </section>
+
+    <section id="about">
+        <h2>O mně</h2>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique harum quod assumenda, modi laboriosam at libero! Rem quia, in, iste accusamus adipisci explicabo a molestias placeat pariatur culpa consectetur quod?</h3>
+    </section>
+
+    <section id="projects">
+        <h2>Moje projekty</h2>
+        <div class="project-list">
+            <div class="project-item">
+                <h3>Projekt převod stupňů</h3>
+                <p>Převáděni stupňů</p>
+                <a href="https://adamvehovsky.github.io/prevod/" class="btn" target="_blank" rel="noopener noreferrer">Podívat se</a>
+            </div>
+            <div class="project-item">
+                <h3>Projekt Game of Life</h3>
+                <p>Projekt Game of Life</p>
+                <a href="https://adamvehovsky.github.io/gol/" class="btn" target="_blank" rel="noopener noreferrer">Podívat se</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontaktujte mě</h2>
+        <p><a href="contact.html" class="btn">Přejít na kontaktní stránku</a></p>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+    <script>
+        particlesJS('particles-js', {
+            "particles": {
+                "number": {
+                    "value": 100,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    }
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false
+                },
+                "size": {
+                    "value": 3,
+                    "random": true
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 2,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "repulse": {
+                        "distance": 100,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+    <script src="scripts.js"></script>
+</body>
+</html>
