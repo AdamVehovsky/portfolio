@@ -1,5 +1,4 @@
-/* General Styles */
-body {
+    body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     background: #000;
@@ -21,7 +20,6 @@ h1, h2, h3 {
     margin: 0;
 }
 
-/* Particles.js Background */
 #particles-js {
     position:absolute;
     width: 100%;
@@ -30,7 +28,6 @@ h1, h2, h3 {
     background: transparent;
 }
 
-/* Header Styles */
 header {
     display: flex;
     justify-content: space-between;
@@ -62,7 +59,6 @@ header nav ul li a:hover {
     color: #00bcd4;
 }
 
-/* Hero Section Styles */
 #hero {
     display: flex;
     justify-content: center;
@@ -71,8 +67,8 @@ header nav ul li a:hover {
     text-align: center;
     background: transparent;
     color: #fff;
-    margin: 0; /* Removed margin to prevent offset */
-    padding: 0; /* Removed padding to prevent offset */
+    margin: 0;
+    padding: 0;
 }
 
 #hero h1 {
@@ -98,7 +94,6 @@ header nav ul li a:hover {
     background: #0056b3;
 }
 
-/* About Section Styles */
 #about {
     padding: 3rem 2rem;
     text-align: center;
@@ -118,7 +113,6 @@ header nav ul li a:hover {
     margin: 0 auto;
 }
 
-/* Projects Section Styles */
 #projects {
     background: #000;
     color: #fff;
@@ -173,13 +167,11 @@ header nav ul li a:hover {
     background: #0056b3;
 }
 
-/* Contact Section Styles */
 #contact {
     padding: 3rem 2rem;
     text-align: center;
 }
 
-/* Form Styles */
 form input, form textarea {
     width: 100%;
     margin-bottom: 1rem;
@@ -204,7 +196,6 @@ form button:hover {
     background: #008c9e;
 }
 
-/* Button Styles */
 .btn {
     background: linear-gradient(to right, #ff7e5f, #feb47b);
     color: #fff;
@@ -221,7 +212,6 @@ form button:hover {
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
 }
 
-/* Footer Styles */
 footer {
     background: #333;
     color: #fff;
@@ -244,4 +234,26 @@ footer ul li a {
 
 footer ul li a:hover {
     text-decoration: underline;
+}
+
+.zkusenosti-wrap {
+    text-align: left;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+}
+
+.zkusenosti-title {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #00bcd4;
+    margin-bottom: 0.5rem;
+}
+
+.zkusenosti-list {
+    margin-left: 2rem;
+    color: #fff;
+    font-size: 1rem;
+    list-style: disc inside;
+    padding-left: 0;
 }
