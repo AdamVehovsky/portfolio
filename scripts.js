@@ -12,10 +12,10 @@ document.addEventListener('mousemove', (event) => {
         const deltaY = mouseY - particleY;
         const distance = Math.sqrt(deltaX * deltaX + deltaY * deltaY);
 
-        const maxDistance = 300; // Increased interaction range
+        const maxDistance = 300; 
         const force = Math.max(0, (maxDistance - distance) / maxDistance);
 
-        const translateX = deltaX * force * 0.3; // Adjusted force multiplier
+        const translateX = deltaX * force * 0.3; 
         const translateY = deltaY * force * 0.3;
 
         particle.style.transform = `translate(${translateX}px, ${translateY}px)`;
@@ -43,7 +43,7 @@ window.addEventListener('scroll', function () {
             aboutSection.scrollIntoView({
                 behavior: 'smooth'
             });
-            hasScrolled = true; // Prevent further automatic scrolling
+            hasScrolled = true; 
         }
     }
 });
