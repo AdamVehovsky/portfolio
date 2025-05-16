@@ -59,7 +59,7 @@ header nav ul li a:hover {
     color: #00bcd4;
 }
 
-#hero {
+#jmeno {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,17 +71,17 @@ header nav ul li a:hover {
     padding: 0;
 }
 
-#hero h1 {
+#jmeno h1 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
 }
 
-#hero p {
+#jmeno p {
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
 }
 
-#hero .btn {
+#jmeno .btn {
     display: inline-block;
     background: #007BFF;
     color: #fff;
@@ -90,7 +90,7 @@ header nav ul li a:hover {
     font-weight: bold;
 }
 
-#hero .btn:hover {
+#jmeno .btn:hover {
     background: #0056b3;
 }
 
