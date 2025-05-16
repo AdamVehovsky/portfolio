@@ -36,10 +36,10 @@ let hasScrolled = false;
 
 window.addEventListener('scroll', function () {
     if (!hasScrolled) {
-        const heroSection = document.querySelector('#hero');
+        const jmenoSection = document.querySelector('#jmeno');
         const aboutSection = document.querySelector('#about');
 
-        if (window.scrollY > 0 && window.scrollY < heroSection.offsetHeight) {
+        if (window.scrollY > 0 && window.scrollY < jmenoSectionSection.offsetHeight) {
             aboutSection.scrollIntoView({
                 behavior: 'smooth'
             });
